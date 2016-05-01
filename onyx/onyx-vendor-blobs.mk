@@ -59,27 +59,18 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera2_vpe_module.so:/system/vendor/lib/libmmcamera2_vpe_module.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera2_wnr_module.so:/system/vendor/lib/libmmcamera2_wnr_module.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_cac_lib.so:/system/vendor/lib/libmmcamera_cac_lib.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:/system/vendor/lib/libmmcamera_dw9761b_eeprom.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_faceproc.so:/system/vendor/lib/libmmcamera_faceproc.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:/system/vendor/lib/libmmcamera_hdr_gb_lib.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_hdr_lib.so:/system/vendor/lib/libmmcamera_hdr_lib.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_imglib.so:/system/vendor/lib/libmmcamera_imglib.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_imx214.so:/system/vendor/lib/libmmcamera_imx214.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:/system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_ov5648.so:/system/vendor/lib/libmmcamera_ov5648.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_ov8858.so:/system/vendor/lib/libmmcamera_ov8858.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_pdaf.so:/system/vendor/lib/libmmcamera_pdaf.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_pdafcamif.so:/system/vendor/lib/libmmcamera_pdafcamif.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_s5k3l8.so:/system/vendor/lib/libmmcamera_s5k3l8.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_s5k3m2.so:/system/vendor/lib/libmmcamera_s5k3m2.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so:/system/vendor/lib/libmmcamera_sunny_f13s01l_eeprom.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:/system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:/system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_sunny_p8v12b_eeprom.so:/system/vendor/lib/libmmcamera_sunny_p8v12b_eeprom.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:/system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_tintless_algo.so:/system/vendor/lib/libmmcamera_tintless_algo.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:/system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:/system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:/system/vendor/lib/libmmcamera_wavelet_lib.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmipl.so:/system/vendor/lib/libmmipl.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmjpeg.so:/system/vendor/lib/libmmjpeg.so \
@@ -87,9 +78,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libactuator_dw9714.so:/system/vendor/lib/libactuator_dw9714.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:/system/vendor/lib/libactuator_dw9714_camcorder.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libactuator_dw9714_camera.so:/system/vendor/lib/libactuator_dw9714_camera.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libactuator_dw9800w.so:/system/vendor/lib/libactuator_dw9800w.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libactuator_dw9800w_camcorder.so:/system/vendor/lib/libactuator_dw9800w_camcorder.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libactuator_dw9800w_camera.so:/system/vendor/lib/libactuator_dw9800w_camera.so \
