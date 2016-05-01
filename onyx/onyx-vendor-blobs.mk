@@ -39,10 +39,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
         vendor/oneplus/onyx/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/oneplus/onyx/proprietary/lib/hw/camera.msm8974.so:/system/lib/hw/camera.msm8974.so \
-        vendor/oneplus/onyx/proprietary/lib/libFNVfbEngineLib.so:/system/lib/libFNVfbEngineLib.so \
         vendor/oneplus/onyx/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
         vendor/oneplus/onyx/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
-        vendor/oneplus/onyx/proprietary/lib/libopcamerahw_interface.so:/system/lib/libopcamerahw_interface.so \
         vendor/oneplus/onyx/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libjpegdhw.so:/system/vendor/lib/libjpegdhw.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libjpegehw.so:/system/vendor/lib/libjpegehw.so \
