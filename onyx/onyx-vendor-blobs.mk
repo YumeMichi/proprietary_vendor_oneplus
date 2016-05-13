@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
         vendor/oneplus/onyx/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
         vendor/oneplus/onyx/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
+        vendor/oneplus/onyx/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libjpegdhw.so:/system/vendor/lib/libjpegdhw.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libjpegehw.so:/system/vendor/lib/libjpegehw.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera2_c2d_module.so:/system/vendor/lib/libmmcamera2_c2d_module.so \
