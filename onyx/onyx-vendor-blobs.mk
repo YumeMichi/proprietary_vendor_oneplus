@@ -42,7 +42,7 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
         vendor/oneplus/onyx/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
         vendor/oneplus/onyx/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
-        vendor/oneplus/onyx/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
+        vendor/oneplus/onyx/proprietary/lib/libwcnss_qmi.so:/system/lib/libwcnss_qmi.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libjpegdhw.so:/system/vendor/lib/libjpegdhw.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libjpegehw.so:/system/vendor/lib/libjpegehw.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmcamera2_c2d_module.so:/system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -148,11 +148,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/libscale.so:/system/vendor/lib/libscale.so \
         vendor/oneplus/onyx/proprietary/etc/firmware/a330_pfp.fw:/system/etc/firmware/a330_pfp.fw \
         vendor/oneplus/onyx/proprietary/etc/firmware/a330_pm4.fw:/system/etc/firmware/a330_pm4.fw \
-        vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b00:/system/etc/firmware/keymaste.b00 \
-        vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b01:/system/etc/firmware/keymaste.b01 \
-        vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b02:/system/etc/firmware/keymaste.b02 \
-        vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b03:/system/etc/firmware/keymaste.b03 \
-        vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.mdt:/system/etc/firmware/keymaste.mdt \
         vendor/oneplus/onyx/proprietary/vendor/lib/liblisten.so:/system/vendor/lib/liblisten.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/liblistenhardware.so:/system/vendor/lib/liblistenhardware.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/liblistenjni.so:/system/vendor/lib/liblistenjni.so \
@@ -243,4 +238,88 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/oneplus/onyx/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libthermalioctl.so:/system/vendor/lib/libthermalioctl.so \
-        vendor/oneplus/onyx/proprietary/bin/time_daemon:/system/bin/time_daemon \
+        vendor/oneplus/onyx/proprietary/bin/time_daemon:/system/bin/time_daemon
+
+# Modem firmware images
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b00:/system/etc/firmware/adsp.b00 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b01:/system/etc/firmware/adsp.b01 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b02:/system/etc/firmware/adsp.b02 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b03:/system/etc/firmware/adsp.b03 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b04:/system/etc/firmware/adsp.b04 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b05:/system/etc/firmware/adsp.b05 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b06:/system/etc/firmware/adsp.b06 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b07:/system/etc/firmware/adsp.b07 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b08:/system/etc/firmware/adsp.b08 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b09:/system/etc/firmware/adsp.b09 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b10:/system/etc/firmware/adsp.b10 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b11:/system/etc/firmware/adsp.b11 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.b12:/system/etc/firmware/adsp.b12 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/adsp.mdt:/system/etc/firmware/adsp.mdt \
+    vendor/oneplus/onyx/proprietary/etc/firmware/cmnlib.b00:/system/etc/firmware/cmnlib.b00 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/cmnlib.b01:/system/etc/firmware/cmnlib.b01 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/cmnlib.b02:/system/etc/firmware/cmnlib.b02 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/cmnlib.b03:/system/etc/firmware/cmnlib.b03 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/cmnlib.mdt:/system/etc/firmware/cmnlib.mdt \
+    vendor/oneplus/onyx/proprietary/etc/firmware/isdbtmm.b00:/system/etc/firmware/isdbtmm.b00 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/isdbtmm.b01:/system/etc/firmware/isdbtmm.b01 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/isdbtmm.b02:/system/etc/firmware/isdbtmm.b02 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/isdbtmm.b03:/system/etc/firmware/isdbtmm.b03 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/isdbtmm.mdt:/system/etc/firmware/isdbtmm.mdt \
+    vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b00:/system/etc/firmware/keymaste.b00 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b01:/system/etc/firmware/keymaste.b01 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b02:/system/etc/firmware/keymaste.b02 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b03:/system/etc/firmware/keymaste.b03 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.mdt:/system/etc/firmware/keymaste.mdt \
+    vendor/oneplus/onyx/proprietary/etc/firmware/mba.b00:/system/etc/firmware/mba.b00 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/mba.mdt:/system/etc/firmware/mba.mdt \
+    vendor/oneplus/onyx/proprietary/etc/firmware/mc_v2.b00:/system/etc/firmware/mc_v2.b00 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/mc_v2.b01:/system/etc/firmware/mc_v2.b01 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/mc_v2.b02:/system/etc/firmware/mc_v2.b02 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/mc_v2.b03:/system/etc/firmware/mc_v2.b03 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/mc_v2.mdt:/system/etc/firmware/mc_v2.mdt \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b00:/system/etc/firmware/modem.b00 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b01:/system/etc/firmware/modem.b01 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b02:/system/etc/firmware/modem.b02 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b03:/system/etc/firmware/modem.b03 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b06:/system/etc/firmware/modem.b06 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b08:/system/etc/firmware/modem.b08 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b09:/system/etc/firmware/modem.b09 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b11:/system/etc/firmware/modem.b11 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b12:/system/etc/firmware/modem.b12 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b13:/system/etc/firmware/modem.b13 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b14:/system/etc/firmware/modem.b14 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b15:/system/etc/firmware/modem.b15 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b16:/system/etc/firmware/modem.b16 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b17:/system/etc/firmware/modem.b17 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b18:/system/etc/firmware/modem.b18 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b19:/system/etc/firmware/modem.b19 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b22:/system/etc/firmware/modem.b22 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b23:/system/etc/firmware/modem.b23 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b24:/system/etc/firmware/modem.b24 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.b25:/system/etc/firmware/modem.b25 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/modem.mdt:/system/etc/firmware/modem.mdt \
+    vendor/oneplus/onyx/proprietary/etc/firmware/playread.b00:/system/etc/firmware/playread.b00 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/playread.b01:/system/etc/firmware/playread.b01 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/playread.b02:/system/etc/firmware/playread.b02 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/playread.b03:/system/etc/firmware/playread.b03 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/playread.mdt:/system/etc/firmware/playread.mdt \
+    vendor/oneplus/onyx/proprietary/etc/firmware/tqs.b00:/system/etc/firmware/tqs.b00 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/tqs.b01:/system/etc/firmware/tqs.b01 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/tqs.b02:/system/etc/firmware/tqs.b02 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/tqs.b03:/system/etc/firmware/tqs.b03 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/tqs.mdt:/system/etc/firmware/tqs.mdt \
+    vendor/oneplus/onyx/proprietary/etc/firmware/wcnss.b00:/system/etc/firmware/wcnss.b00 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/wcnss.b01:/system/etc/firmware/wcnss.b01 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/wcnss.b02:/system/etc/firmware/wcnss.b02 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/wcnss.b04:/system/etc/firmware/wcnss.b04 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/wcnss.b06:/system/etc/firmware/wcnss.b06 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/wcnss.b07:/system/etc/firmware/wcnss.b07 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/wcnss.b08:/system/etc/firmware/wcnss.b08 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/wcnss.b09:/system/etc/firmware/wcnss.b09 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/wcnss.mdt:/system/etc/firmware/wcnss.mdt \
+    vendor/oneplus/onyx/proprietary/etc/firmware/widevine.b00:/system/etc/firmware/widevine.b00 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/widevine.b01:/system/etc/firmware/widevine.b01 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/widevine.b02:/system/etc/firmware/widevine.b02 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/widevine.b03:/system/etc/firmware/widevine.b03 \
+    vendor/oneplus/onyx/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt
