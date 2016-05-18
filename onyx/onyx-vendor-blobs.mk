@@ -148,11 +148,11 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/libscale.so:/system/vendor/lib/libscale.so \
         vendor/oneplus/onyx/proprietary/etc/firmware/a330_pfp.fw:/system/etc/firmware/a330_pfp.fw \
         vendor/oneplus/onyx/proprietary/etc/firmware/a330_pm4.fw:/system/etc/firmware/a330_pm4.fw \
-        vendor/oneplus/onyx/proprietary/vendor/firmware/keymaster/keymaster.b00:/system/vendor/firmware/keymaster/keymaster.b00 \
-        vendor/oneplus/onyx/proprietary/vendor/firmware/keymaster/keymaster.b01:/system/vendor/firmware/keymaster/keymaster.b01 \
-        vendor/oneplus/onyx/proprietary/vendor/firmware/keymaster/keymaster.b02:/system/vendor/firmware/keymaster/keymaster.b02 \
-        vendor/oneplus/onyx/proprietary/vendor/firmware/keymaster/keymaster.b03:/system/vendor/firmware/keymaster/keymaster.b03 \
-        vendor/oneplus/onyx/proprietary/vendor/firmware/keymaster/keymaster.mdt:/system/vendor/firmware/keymaster/keymaster.mdt \
+        vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b00:/system/etc/firmware/keymaste.b00 \
+        vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b01:/system/etc/firmware/keymaste.b01 \
+        vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b02:/system/etc/firmware/keymaste.b02 \
+        vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.b03:/system/etc/firmware/keymaste.b03 \
+        vendor/oneplus/onyx/proprietary/etc/firmware/keymaste.mdt:/system/etc/firmware/keymaste.mdt \
         vendor/oneplus/onyx/proprietary/vendor/lib/liblisten.so:/system/vendor/lib/liblisten.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/liblistenhardware.so:/system/vendor/lib/liblistenhardware.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/liblistenjni.so:/system/vendor/lib/liblistenjni.so \
