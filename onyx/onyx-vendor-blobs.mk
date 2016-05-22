@@ -19,13 +19,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/libadsprpc.so:/system/vendor/lib/libadsprpc.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libscve.so:/system/vendor/lib/libscve.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libscve_stub.so:/system/vendor/lib/libscve_stub.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:/system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:/system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:/system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
         vendor/oneplus/onyx/proprietary/bin/btnvtool:/system/bin/btnvtool \
         vendor/oneplus/onyx/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/oneplus/onyx/proprietary/vendor/lib/libbtnv.so:/system/vendor/lib/libbtnv.so \
@@ -89,17 +82,13 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_ov8858_preview_binding.so:/system/vendor/lib/libchromatix_ov8858_preview_binding.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:/system/vendor/lib/libchromatix_ov8858_snapshot.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_common.so:/system/vendor/lib/libchromatix_s5k3m2_common.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_common_panorama.so:/system/vendor/lib/libchromatix_s5k3m2_common_panorama.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_default_video.so:/system/vendor/lib/libchromatix_s5k3m2_default_video.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_120fps.so:/system/vendor/lib/libchromatix_s5k3m2_hfr_120fps.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_60fps.so:/system/vendor/lib/libchromatix_s5k3m2_hfr_60fps.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_hfr_90fps.so:/system/vendor/lib/libchromatix_s5k3m2_hfr_90fps.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_liveshot.so:/system/vendor/lib/libchromatix_s5k3m2_liveshot.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_preview.so:/system/vendor/lib/libchromatix_s5k3m2_preview.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_preview_panorama.so:/system/vendor/lib/libchromatix_s5k3m2_preview_panorama.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_snapshot.so:/system/vendor/lib/libchromatix_s5k3m2_snapshot.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so:/system/vendor/lib/libchromatix_s5k3m2_snapshot_panorama.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_video_hd.so:/system/vendor/lib/libchromatix_s5k3m2_video_hd.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libchromatix_s5k3m2_zsl.so:/system/vendor/lib/libchromatix_s5k3m2_zsl.so \
         vendor/oneplus/onyx/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:/system/etc/firmware/cpp_firmware_v1_1_1.fw \
         vendor/oneplus/onyx/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:/system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -154,16 +143,9 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/libDivxDrm.so:/system/vendor/lib/libDivxDrm.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libExtendedExtractor.so:/system/vendor/lib/libExtendedExtractor.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libOmxAacDec.so:/system/vendor/lib/libOmxAacDec.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libOmxAmrwbplusDec.so:/system/vendor/lib/libOmxAmrwbplusDec.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libOmxEvrcDec.so:/system/vendor/lib/libOmxEvrcDec.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libOmxMux.so:/system/vendor/lib/libOmxMux.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libOmxQcelp13Dec.so:/system/vendor/lib/libOmxQcelp13Dec.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libOmxWmaDec.so:/system/vendor/lib/libOmxWmaDec.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libSHIMDivxDrm.so:/system/vendor/lib/libSHIMDivxDrm.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmm-color-convertor.so:/system/vendor/lib/libmm-color-convertor.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmmosal.so:/system/vendor/lib/libmmosal.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libmmparser.so:/system/vendor/lib/libmmparser.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqomx_jpegenc.so:/system/vendor/lib/libqomx_jpegenc.so \
         vendor/oneplus/onyx/proprietary/etc/firmware/venus.b04:/system/etc/firmware/venus.b04 \
@@ -175,9 +157,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/etc/firmware/venus.mdt:/system/etc/firmware/venus.mdt \
         vendor/oneplus/onyx/proprietary/bin/mpdecision:/system/bin/mpdecision \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
-        vendor/oneplus/onyx/proprietary/bin/mm-pp-daemon:/system/bin/mm-pp-daemon \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libdisp-aba.so:/system/vendor/lib/libdisp-aba.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libmm-abl-oem.so:/system/vendor/lib/libmm-abl-oem.so \
         vendor/oneplus/onyx/proprietary/bin/irsc_util:/system/bin/irsc_util \
         vendor/oneplus/onyx/proprietary/vendor/lib/libdataitems.so:/system/vendor/lib/libdataitems.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libdsi_netctrl.so:/system/vendor/lib/libdsi_netctrl.so \
@@ -210,24 +189,11 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/libril-qcril-hook-oem.so:/system/vendor/lib/libril-qcril-hook-oem.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libxml.so:/system/vendor/lib/libxml.so \
         vendor/oneplus/onyx/proprietary/bin/sensors.qcom:/system/bin/sensors.qcom \
-        vendor/oneplus/onyx/proprietary/etc/firmware/tp/15055/15055_FW_S3508_Tpk.img:/system/etc/firmware/tp/15055/15055_FW_S3508_Tpk.img \
-        vendor/oneplus/onyx/proprietary/etc/firmware/tp/15055/15055_Limit_Tpk.img:/system/etc/firmware/tp/15055/15055_Limit_Tpk.img \
         vendor/oneplus/onyx/proprietary/vendor/lib/hw/sensors.msm8974.so:/system/vendor/lib/hw/sensors.msm8974.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libAKM8963.so:/system/vendor/lib/libAKM8963.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libasn1cper.so:/system/vendor/lib/libasn1cper.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libasn1crt.so:/system/vendor/lib/libasn1crt.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libasn1crtx.so:/system/vendor/lib/libasn1crtx.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libdpencalib.so:/system/vendor/lib/libdpencalib.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libppl.so:/system/vendor/lib/libppl.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libqcsyncgesture.so:/system/vendor/lib/libqcsyncgesture.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libsensor1.so:/system/vendor/lib/libsensor1.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libsensor_reg.so:/system/vendor/lib/libsensor_reg.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libsensor_thresh.so:/system/vendor/lib/libsensor_thresh.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libsensor_user_cal.so:/system/vendor/lib/libsensor_user_cal.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libusndroute.so:/system/vendor/lib/libusndroute.so \
-        vendor/oneplus/onyx/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
         vendor/oneplus/onyx/proprietary/vendor/lib/libthermalclient.so:/system/vendor/lib/libthermalclient.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libthermalioctl.so:/system/vendor/lib/libthermalioctl.so \
         vendor/oneplus/onyx/proprietary/bin/time_daemon:/system/bin/time_daemon
 
 # Modem firmware images
