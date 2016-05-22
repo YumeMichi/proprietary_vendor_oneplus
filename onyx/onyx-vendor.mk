@@ -17,13 +17,22 @@
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
-    shutdownlistener \
-    libril
+    shutdownlistener
 
 PRODUCT_PACKAGES += \
-    libmm-abl \
     libtime_genoff \
     libTimeService \
     TimeService
+
+PRODUCT_PACKAGES += \
+    libqmi \
+    libmdmdetect \
+    libqmiservices \
+    libidl \
+    libqcci_legacy \
+    libdiag \
+    libqmi_client_qmux \
+    libdsutils \
+    libwpa_qmi_eap_proxy
 
 $(call inherit-product, vendor/oneplus/onyx/onyx-vendor-blobs.mk)

@@ -148,13 +148,11 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/libscale.so:/system/vendor/lib/libscale.so \
         vendor/oneplus/onyx/proprietary/etc/firmware/a330_pfp.fw:/system/etc/firmware/a330_pfp.fw \
         vendor/oneplus/onyx/proprietary/etc/firmware/a330_pm4.fw:/system/etc/firmware/a330_pm4.fw \
-        vendor/oneplus/onyx/proprietary/vendor/lib/liblisten.so:/system/vendor/lib/liblisten.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/liblistenhardware.so:/system/vendor/lib/liblistenhardware.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/liblistenjni.so:/system/vendor/lib/liblistenjni.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/liblistensoundmodel.so:/system/vendor/lib/liblistensoundmodel.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libDivxDrm.so:/system/vendor/lib/libDivxDrm.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libExtendedExtractor.so:/system/vendor/lib/libExtendedExtractor.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libHevcSwDecoder.so:/system/vendor/lib/libHevcSwDecoder.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libOmxAacDec.so:/system/vendor/lib/libOmxAacDec.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libOmxAmrwbplusDec.so:/system/vendor/lib/libOmxAmrwbplusDec.so \
@@ -182,21 +180,14 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/vendor/lib/libmm-abl-oem.so:/system/vendor/lib/libmm-abl-oem.so \
         vendor/oneplus/onyx/proprietary/bin/irsc_util:/system/bin/irsc_util \
         vendor/oneplus/onyx/proprietary/vendor/lib/libdataitems.so:/system/vendor/lib/libdataitems.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libdiag.so:/system/vendor/lib/libdiag.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libdsi_netctrl.so:/system/vendor/lib/libdsi_netctrl.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libdsutils.so:/system/vendor/lib/libdsutils.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libidl.so:/system/vendor/lib/libidl.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libqcci_legacy.so:/system/vendor/lib/libqcci_legacy.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqdi.so:/system/vendor/lib/libqdi.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqdp.so:/system/vendor/lib/libqdp.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libqmi.so:/system/vendor/lib/libqmi.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_cci.so:/system/vendor/lib/libqmi_cci.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_client_helper.so:/system/vendor/lib/libqmi_client_helper.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_client_qmux.so:/system/vendor/lib/libqmi_client_qmux.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_common_so.so:/system/vendor/lib/libqmi_common_so.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_csi.so:/system/vendor/lib/libqmi_csi.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libqmi_encdec.so:/system/vendor/lib/libqmi_encdec.so \
-        vendor/oneplus/onyx/proprietary/vendor/lib/libqmiservices.so:/system/vendor/lib/libqmiservices.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libsmemlog.so:/system/vendor/lib/libsmemlog.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libsystem_health_mon.so:/system/vendor/lib/libsystem_health_mon.so \
         vendor/oneplus/onyx/proprietary/bin/netmgrd:/system/bin/netmgrd \
@@ -211,7 +202,6 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/onyx/proprietary/framework/qcnvitems.jar:/system/framework/qcnvitems.jar \
         vendor/oneplus/onyx/proprietary/framework/qcrilhook.jar:/system/framework/qcrilhook.jar \
         vendor/oneplus/onyx/proprietary/framework/ConnectivityExt.jar:/system/framework/ConnectivityExt.jar \
-        vendor/oneplus/onyx/proprietary/lib/libmdmdetect.so:/system/lib/libmdmdetect.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libconfigdb.so:/system/vendor/lib/libconfigdb.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/liblqe.so:/system/vendor/lib/liblqe.so \
         vendor/oneplus/onyx/proprietary/vendor/lib/libnetmgr.so:/system/vendor/lib/libnetmgr.so \
