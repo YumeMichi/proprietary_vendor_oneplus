@@ -177,6 +177,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oneplus/onyx/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/oneplus/onyx/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/oneplus/onyx/proprietary/lib/libparam.so:system/lib/libparam.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
