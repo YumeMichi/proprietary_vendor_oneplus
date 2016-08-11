@@ -34,7 +34,6 @@ PRODUCT_PACKAGES += \
     libqmi_client_qmux \
     libdsutils \
     libwpa_qmi_eap_proxy \
-    libril \
-    com.qualcomm.location
+    libril
 
 $(call inherit-product, vendor/oneplus/onyx/onyx-vendor-blobs.mk)
