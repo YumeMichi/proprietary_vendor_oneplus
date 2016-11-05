@@ -131,6 +131,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oneplus/onyx/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/oneplus/onyx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/oneplus/onyx/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/oneplus/onyx/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/oneplus/onyx/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oneplus/onyx/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
