@@ -97,6 +97,7 @@ special_mode_mask values:
       <CPPVideo>imx298_cpp_snapshot_hdr</CPPVideo>
     </ChromatixName>
     <ChromatixName special_mode_mask="SCENE_ANTISHAKE">
+      <ISPCommon>imx298_common_clearshot</ISPCommon>
       <CPPSnapshot>imx298_cpp_snapshot_clearshot</CPPSnapshot>
       <ISPPreview>imx298_preview</ISPPreview>
       <ISPSnapshot>imx298_preview</ISPSnapshot>
