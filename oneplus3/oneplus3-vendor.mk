@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -354,6 +354,7 @@ ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/oneplus/oneplus3/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/oneplus/oneplus3/proprietary/bin/cnd:system/bin/cnd \
     vendor/oneplus/oneplus3/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/oneplus/oneplus3/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/oneplus/oneplus3/proprietary/bin/energy-awareness:system/bin/energy-awareness \
@@ -453,6 +454,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
@@ -579,6 +582,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -664,6 +669,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     shutdownlistener \
     TimeService \
+    CNEService \
     ims \
     qcrilmsgtunnel \
     colorservice \
