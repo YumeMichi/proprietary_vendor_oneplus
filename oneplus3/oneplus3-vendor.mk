@@ -63,6 +63,18 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/etc/firmware/tp/fw_synaptics_15801.img:system/etc/firmware/tp/fw_synaptics_15801.img \
     vendor/oneplus/oneplus3/proprietary/etc/firmware/tp/fw_synaptics_15811.img:system/etc/firmware/tp/fw_synaptics_15811.img \
     vendor/oneplus/oneplus3/proprietary/etc/firmware/tp/fw_synaptics_touchkey.img:system/etc/firmware/tp/fw_synaptics_touchkey.img \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus-pro.b00:system/etc/firmware/venus-pro.b00 \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus-pro.b01:system/etc/firmware/venus-pro.b01 \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus-pro.b02:system/etc/firmware/venus-pro.b02 \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus-pro.b03:system/etc/firmware/venus-pro.b03 \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus-pro.b04:system/etc/firmware/venus-pro.b04 \
+    vendor/oneplus/oneplus3/proprietary/etc/firmware/venus-pro.mdt:system/etc/firmware/venus-pro.mdt \
     vendor/oneplus/oneplus3/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/oneplus/oneplus3/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/oneplus/oneplus3/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
