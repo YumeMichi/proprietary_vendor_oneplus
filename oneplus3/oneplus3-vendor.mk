@@ -523,6 +523,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/oneplus/oneplus3/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
     vendor/oneplus/oneplus3/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
