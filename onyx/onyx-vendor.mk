@@ -278,7 +278,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
-    libril \
     libwpa_qmi_eap_proxy \
     libTimeService \
     libtime_genoff \
