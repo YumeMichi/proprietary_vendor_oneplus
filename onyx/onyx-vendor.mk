@@ -143,6 +143,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
