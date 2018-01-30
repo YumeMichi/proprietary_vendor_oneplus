@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/lib/libparam.so:system/lib/libparam.so \
     vendor/oneplus/onyx/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/oneplus/onyx/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/oneplus/onyx/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/oneplus/onyx/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/oneplus/onyx/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/oneplus/onyx/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
