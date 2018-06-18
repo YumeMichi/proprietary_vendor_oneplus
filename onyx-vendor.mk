@@ -54,8 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/firmware/cmnlib.b02:system/vendor/firmware/cmnlib.b02 \
     vendor/oneplus/onyx/proprietary/vendor/firmware/cmnlib.b03:system/vendor/firmware/cmnlib.b03 \
     vendor/oneplus/onyx/proprietary/vendor/firmware/cmnlib.mdt:system/vendor/firmware/cmnlib.mdt \
-    vendor/oneplus/onyx/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/oneplus/onyx/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
     vendor/oneplus/onyx/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
     vendor/oneplus/onyx/proprietary/vendor/firmware/isdbtmm.b00:system/vendor/firmware/isdbtmm.b00 \
     vendor/oneplus/onyx/proprietary/vendor/firmware/isdbtmm.b01:system/vendor/firmware/isdbtmm.b01 \
