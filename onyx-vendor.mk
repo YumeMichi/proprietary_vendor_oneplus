@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
     vendor/oneplus/onyx/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/oneplus/onyx/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
+    vendor/oneplus/onyx/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/oneplus/onyx/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/oneplus/onyx/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/oneplus/onyx/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
@@ -282,6 +283,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/oneplus/onyx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
