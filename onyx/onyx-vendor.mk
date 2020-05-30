@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/bin/rfs_access:$(TARGET_COPY_OUT_VENDOR)/bin/rfs_access \
     vendor/oneplus/onyx/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/oneplus/onyx/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
-    vendor/oneplus/onyx/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/oneplus/onyx/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/oneplus/onyx/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/oneplus/onyx/proprietary/vendor/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
@@ -267,10 +266,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libwpa_qmi_eap_proxy \
-    libTimeService \
     libtime_genoff \
     qcrilmsgtunnel \
-    TimeService \
     shutdownlistener \
     ConnectivityExt \
     qcnvitems \

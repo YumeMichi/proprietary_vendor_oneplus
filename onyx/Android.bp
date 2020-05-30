@@ -36,22 +36,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libTimeService",
-	owner: "oneplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libTimeService.so"],
-		},
-	},
-	compile_multilib: "32",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libtime_genoff",
 	owner: "oneplus",
 	strip: {
@@ -76,17 +60,6 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
-}
-
-android_app_import {
-	name: "TimeService",
-	owner: "oneplus",
-	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
 }
 
 android_app_import {
