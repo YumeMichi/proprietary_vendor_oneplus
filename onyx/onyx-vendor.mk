@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/oneplus/onyx/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
     vendor/oneplus/onyx/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
-    vendor/oneplus/onyx/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/oneplus/onyx/proprietary/vendor/bin/rfs_access:$(TARGET_COPY_OUT_VENDOR)/bin/rfs_access \
     vendor/oneplus/onyx/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/oneplus/onyx/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
@@ -132,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_ds_api.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-    vendor/oneplus/onyx/proprietary/vendor/lib/libparam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libparam.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libwcnss_qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwcnss_qmi.so \
     vendor/oneplus/onyx/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/oneplus/onyx/proprietary/vendor/lib/egl/eglsubAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglsubAndroid.so \
@@ -251,7 +249,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-qmi-1.so \
-    vendor/oneplus/onyx/proprietary/vendor/lib/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qc-radioconfig.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/oneplus/onyx/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
@@ -273,6 +270,5 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     qcrilmsgtunnel \
     shutdownlistener \
-    ConnectivityExt \
     qcnvitems \
     qcrilhook

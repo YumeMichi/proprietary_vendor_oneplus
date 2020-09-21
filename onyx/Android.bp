@@ -74,13 +74,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "ConnectivityExt",
-	owner: "oneplus",
-	jars: ["proprietary/vendor/framework/ConnectivityExt.jar"],
-	soc_specific: true,
-}
-
-dex_import {
 	name: "qcnvitems",
 	owner: "oneplus",
 	jars: ["proprietary/vendor/framework/qcnvitems.jar"],
