@@ -555,18 +555,7 @@ INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('262','
 INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('242','02','110','','full'); /*Fire Telia N*/
 INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('242','02','113','','full'); /*Ambulance Telia N*/
 
-INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','20','15','','full');
-INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','20','17','','full');
-INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','20','18','','full');
-INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','20','119','','full');
-INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','20','116','','full');
-INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','20','191','','full');
-INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','20','196','','full');
-INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','20','197','','full'); /*F-Bouygues Telecom*/
-
-INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','15','','full');
-INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','17','','full');
-INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','01','18','','full'); /*Orange F*/
+INSERT OR REPLACE INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('208','20','116','','full'); /*F-Bouygues Telecom*/
 
 /* END Emerency List For Germany operators */
 

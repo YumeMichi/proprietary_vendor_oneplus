@@ -119,6 +119,7 @@
 
      <data name="single_qmux_channel_enabled" type="int"> 1 </data>
      <data name="single_qmux_channel_name" type="string"> rmnet_mhi0 </data>
+     <data name="netmgr_listen_ev_proto" type="int"> 1 </data>
 
      <data name="num_dsi_handles" type="int"> 8 </data>
      <list name="device_names">

@@ -141,12 +141,12 @@
             Id="0x00001080" Type="1" Enable="true" Target="kona" Fps="120"
             Resources="0x43000000, 0x19, 0x40800000, 1000, 0x40800100, 1000, 0x40800200, 1000,
                        0x40C00000, 0x2, 0x43400000, 0x1F40, 0x40C74000, 0xFF, 0x40408000, 0x63,
-                       0x41000000, 3, 0x40CA8000, 0" />
+                       0x41000000, 3, 0x40CA8000, 2" />
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="kona" Fps="144"
             Resources="0x43000000, 0x19, 0x40800000, 1000, 0x40800100, 1000, 0x40800200, 1000,
                        0x40C00000, 0x2, 0x43400000, 0x1F40, 0x40C74000, 0xFF, 0x40408000, 0x63,
-                       0x41000000, 3, 0x40CA8000, 0" />
+                       0x41000000, 3, 0x40CA8000, 2" />
         #else
         -->
         <Config
@@ -168,7 +168,7 @@
             Id="0x00001080" Type="1" Enable="true" Target="kona" Fps="144"
             Resources="0x43000000, 0x19, 0x40800000, 1209, 0x40800100, 1000, 0x40800200, 1000,
                        0x40C00000, 0x2, 0x43400000, 0x1F40, 0x40C74000, 0xFF, 0x40408000, 0x63,
-                       0x41000000, 3, 0x40CA8000, 0" />
+                       0x41000000, 3, 0x40CA8000, 2" />
         <!--
         #endif /* VENDOR_EDIT */
         -->
@@ -201,12 +201,12 @@
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="kona" Fps="120"
             Resources="0x43000000, 0x19, 0x40800000, 1000, 0x40800100, 1000, 0x40800200, 1000,
                        0x40C00000, 0x2, 0x43400000, 0x1F40, 0x40C74000, 0xFF, 0x40408000, 0x63,
-                       0x41000000, 3, 0x40CA8000, 0" />
+                       0x41000000, 3, 0x40CA8000, 2" />
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="kona" Fps="144"
             Resources="0x43000000, 0x19, 0x40800000, 1000, 0x40800100, 1000, 0x40800200, 1000,
                        0x40C00000, 0x2, 0x43400000, 0x1F40, 0x40C74000, 0xFF, 0x40408000, 0x63,
-                       0x41000000, 3, 0x40CA8000, 0" />
+                       0x41000000, 3, 0x40CA8000, 2" />
 
 	<!--MTP boost-->
         <!-- SCHEDBOOST resource opcode, value-->
@@ -248,12 +248,12 @@
             Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="kona" Fps="120"
             Resources="0x43000000, 0x11, 0x40800000, 1000, 0x40800100, 1000, 0x40800200, 1000,
                        0x40C00000, 0x2, 0x43400000, 0x1F40, 0x40C74000, 0xFF, 0x40408000, 0x63,
-                       0x41000000, 3, 0x40CA8000, 0" />
+                       0x41000000, 3, 0x40CA8000, 2" />
         <Config
             Id="0x00001087" Type="1" Enable="true" Timeout="0" Target="kona" Fps="144"
             Resources="0x43000000, 0x11, 0x40800000, 1000, 0x40800100, 1000, 0x40800200, 1000,
                        0x40C00000, 0x2, 0x43400000, 0x1F40, 0x40C74000, 0xFF, 0x40408000, 0x63,
-                       0x41000000, 3, 0x40CA8000, 0" />
+                       0x41000000, 3, 0x40CA8000, 2" />
 
     <!--PackageInstall boost-->
         <!-- SCHEDBOOST resource opcode, value-->
@@ -264,12 +264,14 @@
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
         <!-- SCHED_SYNC_HINT_ENABLE resource opcode, value -->
+        <!-- SCHED_FORCE_LB_ENABLE opcode, value-->
         <!-- Type="", Package Install boost -->
 
         <Config
             Id="0x00001088" Enable="true" Target="kona"
             Resources="0x40C00000, 0x2, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40804200, 0xFFF,
-                       0x40800000,0xFFF, 0x40800100,0xFFF, 0x40800200, 0xFFF, 0x40CA0000, 0" />
+                       0x40800000,0xFFF, 0x40800100,0xFFF, 0x40800200, 0xFFF, 0x40CA0000, 0,
+                       0x40CCC000, 0" />
 
     <!--Rotation latency boost-->
         <!-- SCHEDBOOST resource opcode, value-->
@@ -328,35 +330,35 @@
         <!-- Type indicates FPS -->
         <!-- 30fps -->
         <Config
-            Id="0x00001094" Type="30" Enable="true" Target="kona"
+            Id="0x00001094" Type="30" Enable="true" Target="kona" Timeout="0"
             Resources="0x40CA4000, 8" />
         <!-- 45fps -->
         <Config
-            Id="0x00001094" Type="45" Enable="true" Target="kona"
+            Id="0x00001094" Type="45" Enable="true" Target="kona" Timeout="0"
             Resources="0x40CA4000, 5" />
         <!-- 60fps -->
         <Config
-            Id="0x00001094" Type="60" Enable="true" Target="kona"
+            Id="0x00001094" Type="60" Enable="true" Target="kona" Timeout="0"
             Resources="0x40CA4000, 4" />
         <!-- 90fps -->
         <Config
-            Id="0x00001094" Type="90" Enable="true" Target="kona"
+            Id="0x00001094" Type="90" Enable="true" Target="kona" Timeout="0"
             Resources="0x40CA4000, 3" />
         <!-- 120fps -->
         <Config
-            Id="0x00001094" Type="120" Enable="true" Target="kona"
-            Resources="0x40CA4000, 2, 0x40CA8000, 0" />
+            Id="0x00001094" Type="120" Enable="true" Target="kona" Timeout="0"
+            Resources="0x40CA4000, 2, 0x40CA8000, 1" />
         <!-- 144fps -->
         <Config
-            Id="0x00001094" Type="144" Enable="true" Target="kona"
-            Resources="0x40CA4000, 2, 0x40CA8000, 0" />
+            Id="0x00001094" Type="144" Enable="true" Target="kona" Timeout="0"
+            Resources="0x40CA4000, 2, 0x40CA8000, 1" />
         <!-- 180fps -->
         <Config
-            Id="0x00001094" Type="180" Enable="true" Target="kona"
+            Id="0x00001094" Type="180" Enable="true" Target="kona" Timeout="0"
             Resources="0x40CA4000, 2" />
         <!-- 240fps -->
         <Config
-            Id="0x00001094" Type="240" Enable="true" Target="kona"
+            Id="0x00001094" Type="240" Enable="true" Target="kona" Timeout="0"
             Resources="0x40CA4000, 2" />
 
     </PerfBoost>

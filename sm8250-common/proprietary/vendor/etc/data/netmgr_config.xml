@@ -293,6 +293,7 @@
       <data name="netdev_budget" type="int"> 9 </data>
       <data name="tc_ul_baserate" type="int"> 0 </data>
       <data name="low_latency_filters" type="int"> 1 </data>
+      <data name="netmgr_listen_ev_proto" type="int"> 1 </data>
 
       <data name="num_modems" type="int"> 2 </data>
       <list name="modems_enabled">
@@ -2999,6 +3000,7 @@
       <data name="netdev_budget" type="int"> 0 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 8192 </data>
+      <data name="netmgr_recovery_enabled" type="int"> 1 </data>
       <data name="num_modems" type="int"> 2 </data>
       <list name="modems_enabled">
          <data type="int"> 1 </data> <!-- MODEM_MSM -->
@@ -3111,8 +3113,8 @@
       <data name="single_qmux_ch_conn_id_str" type="string"> rmnet0 </data>
       <data name="single_qmux_ch_name" type="string"> DATA5_CNTL </data>
       <data name="rmnet_data_enabled" type="int"> 1 </data>
-      <data name="dataformat_agg_dl_pkt" type="int"> 31 </data>
-      <data name="dataformat_agg_dl_size" type="int"> 31668 </data>
+      <data name="dataformat_agg_dl_pkt" type="int"> 63 </data>
+      <data name="dataformat_agg_dl_size" type="int"> 64844 </data>
       <data name="dataformat_agg_ul_pkt" type="int"> 32 </data>
       <data name="dataformat_agg_ul_size" type="int"> 16384 </data>
       <data name="dataformat_agg_ul_time" type="int"> 1000000 </data>
