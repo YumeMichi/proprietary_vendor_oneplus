@@ -1,0 +1,5 @@
+dex_import {
+	name: "WfdCommon",
+	owner: "qcom",
+	jars: ["WfdCommon.jar"],
+}
