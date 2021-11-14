@@ -2165,9 +2165,6 @@
       <data name="netdev_budget" type="int"> 0 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
       <data name="skip_buffered_qos_modify" type="int"> 1 </data>
-      <!-- #ifdef VENDOR_EDIT -->
-      <data name="tcp_mtu_probing" type="int"> 1 </data>
-      <!-- #endif VENDOR_EDIT -->
 
       <data name="num_modems" type="int"> 2 </data>
       <data name="qos_disabled" type="int"> 0 </data>
@@ -2384,9 +2381,6 @@
       <data name="xlat_txcsum_disabled" type="int"> 0 </data>
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 13 </data>
-      <!-- #ifdef VENDOR_EDIT -->
-      <data name="tcp_mtu_probing" type="int"> 1 </data>
-      <!-- #endif VENDOR_EDIT -->
       <data name="netdev_budget" type="int"> 0 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 0 </data>
@@ -2585,9 +2579,6 @@
       <data name="xlat_txcsum_disabled" type="int"> 1 </data>
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 125 </data>
-      <!-- #ifdef VENDOR_EDIT -->
-      <data name="tcp_mtu_probing" type="int"> 1 </data>
-      <!-- #endif VENDOR_EDIT -->
       <data name="netdev_budget" type="int"> 0 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 9216 </data>
@@ -2702,9 +2693,6 @@
       <data name="dl_marker_enabled" type="int"> 2 </data>
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 125 </data>
-      <!-- #ifdef VENDOR_EDIT -->
-      <data name="tcp_mtu_probing" type="int"> 1 </data>
-      <!-- #endif VENDOR_EDIT -->
       <data name="netdev_budget" type="int"> 0 </data>
       <data name="low_latency_filters" type="int"> 1 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
@@ -2850,9 +2838,6 @@
       <data name="dl_marker_enabled" type="int"> 2 </data>
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 125 </data>
-      <!-- #ifdef VENDOR_EDIT -->
-      <data name="tcp_mtu_probing" type="int"> 1 </data>
-      <!-- #endif VENDOR_EDIT -->
       <data name="netdev_budget" type="int"> 0 </data>
       <data name="debug_netdev_max_backlog" type="int"> 1500 </data>
 
@@ -3131,6 +3116,7 @@
       <data name="rmnet_shs" type="int"> 1 </data>
       <data name="uplink_priority" type="int"> 1 </data>
       <data name="iwlan_concurrency" type="int"> 1 </data>
+      <data name="nl_xfrm" type="int"> 1 </data>
       <data name="netdev_max_backlog" type="int"> 100000 </data>
       <data name="debug_netdev_max_backlog" type="int"> 1500 </data>
 
