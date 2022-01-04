@@ -391,6 +391,26 @@
             Resources="0x43008000, 0, 0x4300C000, 0xA, 0x43000000, 25, 0x4180C000, 0, 0x41820000, 0xA, 0x41800000, 71,
             0x41808000, 80"/>
 
+        <!-- Add for photo mode 0.6X preview(alm161956) start -->
+        <!-- PERF_LOCK_POWER_HINT_ID_REAR_PREVIEW_UW -->
+        <!-- Rear Cam Preview -->
+        <!-- llcc-ddr-bw hyst disable : MPCTLV3_LLCBW_HWMON_HYST_OPT(0x43008000) : 0x00(0) -->
+        <!-- llcc-ddr-bw sample_ms : MPCTLV3_LLCBW_HWMON_SAMPLE_MS(0x4300C000) : 0x0A(10) -->
+        <!-- llcc-ddr-bw min_freq : MPCTLV3_LLCBW_HWMON_MIN_FREQ(0x43000000) : 25 -->
+        <!-- cpu-llcc-bw hyst disable : MPCTLV3_CPUBW_HWMON_HYST_OPT(0x4180C000) : 0x00(0) -->
+        <!-- cpu-llcc-bw sample_ms : MPCTLV3_CPUBW_HWMON_SAMPLE_MS(0x41820000) : 0x0A(10) -->
+        <!-- cpu-llcc-bw min_freq : MPCTLV3_CPUBW_HWMON_MIN_FREQ(0x41800000) : 71 -->
+        <!-- cpu-llcc-bw io_percent : MPCTLV3_CPUBW_HWMON_IO_PERCENT(0x41808000) : 80 -->
+        <!-- MPCTLV3_MIN_ONLINE_CPU_CLUSTER_BIG (0x41000000): 0x03(3) -->
+        <!-- gold cluster min freq : MPCTLV3_MIN_FREQ_CLUSTER_BIG_CORE_0(0x40800000) : 1056 -->
+        <!-- Sched downmigrate : MPCTLV3_SCHED_DOWNMIGRATE(0x40C20000) : 1E -->
+        <!-- Sched upmigrate : MPCTLV3_SCHED_UPMIGRATE(0x40C1C000) : 28 -->
+        <Config
+            Id="0x00001345" Enable="true" Timeout="0" Target="kona"
+            Resources="0x43008000, 0, 0x4300C000, 0xA, 0x43000000, 25, 0x4180C000, 0, 0x41820000, 0xA, 0x41800000, 71,
+            0x41808000, 80, 0x41000000, 3, 0x41000100, 4,0x40800000, 1056, 0x40C20000, 0x1E, 0x40C1C000, 0x28, 0x40CA8000, 0x2 "/>
+        <!-- Add for photo mode 0.6X preview(alm161956) end -->
+
         <!-- Rear Cam HD0960 Encoding -->
         <!-- MPCTLV3_TOGGLE_POWER_COLLAPSE (0x40400000): 0x01(1) -->
         <!-- MPCTLV3_MIN_ONLINE_CPU_CLUSTER_PRIME  (0x41000200): 0x01(1) -->
