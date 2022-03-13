@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm4x6xx_0.json \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_ak991x_0.json \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_amd_sw_disabled.json \
+    vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_bmi26x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_bmi26x_0.json \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_bmp380_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_bmp380_0.json \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_bu52053nvx_0.json \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_default_sensors.json \
@@ -60,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_lsm6dsm_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lsm6dsm_0.json \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lsm6dst_0.json \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lsm6dst_1.json \
+    vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_mmc5603x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_mmc5603x_0.json \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_power_0.json \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_qrd_ak991x_0.json \
     vendor/oneplus/oneplus9r/proprietary/vendor/etc/sensors/config/kona_qrd_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_qrd_lsm6dst_0.json \
