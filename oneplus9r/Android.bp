@@ -5,3 +5,60 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "com.qti.sensor.gc02m1b",
+	owner: "oneplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/camera/com.qti.sensor.gc02m1b.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	overrides: ["com.qti.sensor.gc2375"],
+	relative_install_path: "camera",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.qti.sensormodule.holitech_gc02m1b",
+	owner: "oneplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/camera/com.qti.sensormodule.holitech_gc02m1b.bin"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	overrides: ["com.qti.sensormodule.ofilm_imx481", "com.qti.sensormodule.ofilm_imx481_SFK", "com.qti.sensormodule.shine_gc2375"],
+	relative_install_path: "camera",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "com.qti.tuned.holitech_gc02m1b",
+	owner: "oneplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/camera/com.qti.tuned.holitech_gc02m1b.bin"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	overrides: ["com.qti.tuned.ofilm_imx481", "com.qti.tuned.shine_gc2375"],
+	relative_install_path: "camera",
+	prefer: true,
+	soc_specific: true,
+}
+
