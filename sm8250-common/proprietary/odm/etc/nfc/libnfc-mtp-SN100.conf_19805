@@ -23,7 +23,7 @@ NXP_NFC_DEV_NODE="/dev/nq-nci"
 #VEN Toggle Config
 #Disable = 0x00
 #Enable  = 0x01
-ENABLE_VEN_TOGGLE=0x00
+ENABLE_VEN_TOGGLE=0x01
 
 ###############################################################################
 # Extension for Mifare reader enable

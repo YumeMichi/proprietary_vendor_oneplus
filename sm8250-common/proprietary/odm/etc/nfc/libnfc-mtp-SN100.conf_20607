@@ -514,7 +514,7 @@ NXP_RF_CONF_MAX_NUM=12
 #    NFC: Fix CLK delay issue causing NFC service died
 #    Modify CORE_CONF_EXTN parameter to introduce
 #    600us delay in first trial of PLL locking.
-NXP_CORE_CONF_EXTN={20, 02, 25, 08,
+NXP_CORE_CONF_EXTN={20, 02, 29, 09,
     A0, 07, 01, 01,
     A0, 0A, 01, 00,
     A0, EC, 01, 01,
@@ -522,6 +522,7 @@ NXP_CORE_CONF_EXTN={20, 02, 25, 08,
     A0, B8, 01, 00,
     A0, 8E, 01, 01,
     A0, 47, 02, 00, 27,
+    A1, 13, 01, 32,
     A0, 85, 04, 50, 08, A8, 2C
 }
 #       A0, B8, 01, 01, //enable apdu logging
@@ -957,7 +958,8 @@ NFA_CONFIG_FORMAT=1
 # bit pos 3 = Screen off unlock
 # bit pos 4 = Screen On lock
 # bit pos 5 = Screen Off lock
-#DEFUALT_GSMA_PWR_STATE=0x3B
+# open the gsma config for hce screen off feature
+DEFUALT_GSMA_PWR_STATE=0x3B
 #################################################################################
 
 #################################################################################

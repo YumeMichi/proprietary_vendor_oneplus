@@ -8,8 +8,8 @@
 
     <!-- defaults will be used unless any mode overrides params -->
     <default>
-        <AmbientLightToContrastStrengthTableInput>0 100 2000 10000 30000</AmbientLightToContrastStrengthTableInput>
-        <AmbientLightToContrastStrengthTableOutput>0 0 0 256 256</AmbientLightToContrastStrengthTableOutput>
+        <AmbientLightToContrastStrengthTableInput>0 2000 10000 40000 80000</AmbientLightToContrastStrengthTableInput>
+        <AmbientLightToContrastStrengthTableOutput>0 0 64 96 128</AmbientLightToContrastStrengthTableOutput>
         <AmbientLightToContrastStrengthEnable>1</AmbientLightToContrastStrengthEnable>
 
         <BacklightReductionTableInput>0 1024 1536 1792 2047 4095</BacklightReductionTableInput>
@@ -23,7 +23,7 @@
         <TemporalControlTableOutput>1 2 4 4 4 4</TemporalControlTableOutput>
 
         <BacklightToContrastStrengthTableInput>0 512 1024 1536 2047 4095</BacklightToContrastStrengthTableInput>
-        <BacklightToContrastStrengthTableOutput>256 256 256 256 256 256</BacklightToContrastStrengthTableOutput>
+        <BacklightToContrastStrengthTableOutput>128 128 128 128 128 128</BacklightToContrastStrengthTableOutput>
         <BacklightToContrastStrengthEnable>1</BacklightToContrastStrengthEnable>
 
         <param001>256</param001>
@@ -34,7 +34,7 @@
         <param005>1.2</param005>
 
         <param006>50</param006>
-        <param007>0.1</param007>
+        <param007>8</param007>
     </default>
 
 </Group>

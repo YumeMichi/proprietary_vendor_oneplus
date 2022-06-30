@@ -956,7 +956,7 @@ NFA_CONFIG_FORMAT=1
 # bit pos 3 = Screen off unlock
 # bit pos 4 = Screen On lock
 # bit pos 5 = Screen Off lock
-#DEFUALT_GSMA_PWR_STATE=0x3B
+DEFUALT_GSMA_PWR_STATE=0x3B
 #################################################################################
 
 #################################################################################
