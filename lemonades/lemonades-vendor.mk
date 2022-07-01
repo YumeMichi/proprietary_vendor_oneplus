@@ -22,13 +22,17 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonades/proprietary/odm/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_main.bin \
     vendor/oneplus/lemonades/proprietary/odm/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_ultrawide.bin \
     vendor/oneplus/lemonades/proprietary/odm/etc/camera/distortion_result.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortion_result.bin \
+    vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_ak991x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_ak991x_0.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_alsps.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_bmi26x_0.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_cct.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_cct_rear.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_cct_rear.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_icm4x6xx.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_icm4x6xx.json \
+    vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_lps22hh_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_lps22hh_0.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_lsm6dso.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_lsm6dso.json \
+    vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_mmc56x3x.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_mmc56x3x.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_sx933x_0.json \
+    vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_tcs3408_rear.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_tcs3408_rear.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.elf \
     vendor/oneplus/lemonades/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
