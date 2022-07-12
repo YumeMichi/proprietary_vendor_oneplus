@@ -1150,6 +1150,15 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.1.so \
     vendor/oneplus/sm8250-common/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/firmware/alipay.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b00 \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/firmware/alipay.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b01 \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/firmware/alipay.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b02 \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/firmware/alipay.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b03 \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/firmware/alipay.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b04 \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/firmware/alipay.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b05 \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/firmware/alipay.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b06 \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/firmware/alipay.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.b07 \
+    vendor/oneplus/sm8250-common/proprietary/system/etc/firmware/alipay.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/alipay.mdt \
     vendor/oneplus/sm8250-common/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/oneplus/sm8250-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/oneplus/sm8250-common/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
