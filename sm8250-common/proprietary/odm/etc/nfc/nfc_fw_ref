@@ -1,0 +1,32 @@
+#############################################################
+## File: - nfc_fw_ref
+##
+## Copyright (C), 2008-2020, OPPO Mobile Comm Corp., Ltd
+##
+## Description : 1.0
+##           This is a common file
+##
+## Version: 1.0
+## Date created: 2020/04/23
+## Author: ChangDongdong@CONNECTIVITY.Nfc.Basic.22181, nfc_fw_ref conf fw copy and load
+## Format for every line:
+##   [target fw]:[project name 1] [project name 2]...
+##   [project name] have four source:
+##     1. ro.separate.soft
+##     2. /proc/oppoVersion/prjName
+##     3. /proc/oppoVersion/prjVersion
+##     4. ro.build.product
+##   [target fw] is the name of folder which contains real config
+## More over, we have some appendencies for other request:
+##   If you have a region concern, you can write in this format
+##     [target fw]:[project name 1(REGION=TARGET1/TARGET2;FEATURE2=TARGET3/TARGET4)]...
+##   Like:
+##     sn100t_fw_01_10_53_JP:19362(REGION=JP;OPERATOR=VODAFONE)
+##   Then we will find fw from sn100t_fw_01_10_53_JP in japen version and 19362 in other
+## ------------------ Revision History: ---------------------
+##      <author>         <date>                        <desc>
+##     ChangDongdong  2020/04/23  Change nfc fw load & compile mechanism
+#############################################################
+sn100t_fw_01_10_53:19811 19813 19835 19837 19805 20806 20807 20808 19821 19823 19841 19839 20828 20838
+
+sn100t_fw_01_10_57:19063 19065 19066 19161 19163 20135 20139 20235 19795 20607 20061 20062 20161 20351 20163 20809 19855 21615 21619 2169A 2169B 2161A
