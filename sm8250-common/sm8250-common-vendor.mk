@@ -1015,6 +1015,49 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/barca_alarm_ring_RTP_120.bin:$(TARGET_COPY_OUT_ODM)/firmware/barca_alarm_ring_RTP_120.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/barca_incoming_ring_RTP_121.bin:$(TARGET_COPY_OUT_ODM)/firmware/barca_incoming_ring_RTP_121.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/barca_notice_ring_RTP_122.bin:$(TARGET_COPY_OUT_ODM)/firmware/barca_notice_ring_RTP_122.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19063/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19063/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19065/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19065/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19066/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19066/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19067/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19067/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19161/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19161/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19361/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19361/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19362/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19362/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19705/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19705/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19706/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19706/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19795/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19795/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19805/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19805/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19811/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19811/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19813/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19813/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19821/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19821/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19823/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19823/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19835/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19835/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19837/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19837/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19839/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19839/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19841/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19841/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/19855/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19855/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20061/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20061/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20062/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20062/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20135/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20135/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20137/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20137/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20139/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20139/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20163/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20163/oplus_vooc_fw_rt5125.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20235/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20235/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20351/oplus_vooc_fw_rt5125.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20351/oplus_vooc_fw_rt5125.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20607/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20607/oplus_vooc_fw.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20806/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20806/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20807/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20807/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20808/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20808/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20809/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20809/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/2080E/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/2080E/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20819/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20819/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20828/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20828/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/20838/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20838/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/21615/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21615/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/2161A/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/2161A/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/2169A/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/2169A/oplus_vooc_fw_rk826.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/fastchg/2169B/oplus_vooc_fw_rk826.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/2169B/oplus_vooc_fw_rk826.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/notif_Allay_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Allay_RTP.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/notif_Allusion_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Allusion_RTP.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/notif_Amiable_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/notif_Amiable_RTP.bin \
