@@ -1163,7 +1163,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/tp/21619/FW_S3908_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21619/FW_S3908_SAMSUNG_FAE.img \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/wentai24k_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/wentai24k_rtp.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib/libaiboost_nnlib_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_nnlib_sr.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib/libaiboost_ubwc.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_ubwc.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib/libosie_process.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_process.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib/libosie_stub.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_stub.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib/rfsa/adsp/aiboost/libaiboostsr_skel_v66.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/aiboost/libaiboostsr_skel_v66.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib/rfsa/adsp/hta_lib/libhta_dsp_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/hta_lib/libhta_dsp_skel.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib/rfsa/adsp/libaiboost_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib/rfsa/adsp/libaiboost_skel_v65.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel_v65.so \
@@ -1198,6 +1205,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/hw/fingerprint.goodix9638_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix9638_G6.default.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/libSonyIMX471RmscLibrary.so:$(TARGET_COPY_OUT_ODM)/lib64/libSonyIMX471RmscLibrary.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib64/libaiboost.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiboost.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib64/libaiboost_hexagon.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiboost_hexagon.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib64/libaiboost_nnlib_sr.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiboost_nnlib_sr.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib64/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiboost_sr.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib64/libaiboost_ubwc.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiboost_ubwc.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/libfastov_dsp.so:$(TARGET_COPY_OUT_ODM)/lib64/libfastov_dsp.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/libgf_hal_19805_G6_3_oplus.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_19805_G6_3_oplus.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/libgf_hal_19805_G6_7_oplus.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_19805_G6_7_oplus.so \
@@ -2183,6 +2195,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmutils.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
