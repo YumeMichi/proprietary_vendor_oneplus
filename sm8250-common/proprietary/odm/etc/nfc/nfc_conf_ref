@@ -1,0 +1,60 @@
+#############################################################
+## File: - nfc_conf_ref
+##
+## Copyright (C), 2008-2020, OPLUS Mobile Comm Corp., Ltd
+##
+## Description : 1.0
+##           This is a common file
+##
+## Version: 1.0
+## Date created: 12:00, 2019/09/20
+## Author: Yukun.Wang@PSW.CONNECTIVITY.Nfc.Basic, 2345426
+## Format for every line:
+##   [target config]:[project name 1] [project name 2]...
+##   [project name] have four source:
+##     1. ro.separate.soft
+##     2. /proc/oplusVersion/prjName
+##     3. /proc/oplusVersion/prjVersion
+##     4. ro.build.product
+##   [target config] is the name of folder which contains real config
+## More over, we have some appendencies for other request:
+##   If you have a region concern, you can write in this format
+##     [target config]:[project name 1(REGION=TARGET1/TARGET2;FEATURE2=TARGET3/TARGET4)]...
+##   Like:
+##     19362_JP:19362(REGION=JP/TW;OPERATOR=VODAFONE)
+##   Then we will find config from 19362_JP in japen version and 19362 in other
+## ------------------ Revision History: ---------------------
+##      <author>         <date>                        <desc>
+##     Yukun.Wang  12:00, 2019/09/20  Change nfc config load & compile mechanism
+##     Yukun.Wang  15:00, 2019/12/25      Add new mechanism for region support
+#############################################################
+
+19065:19063 19065 kona
+19066:19066 19067 OP4A79
+19161:19161 19163
+19361:19361
+19362:19362
+19361_TW:19361(REGION=TW)
+19362_JP:19362(REGION=JP)
+19795:19795 19796 19797
+19705:19705 19706
+20607:20607
+20135:20135
+20061:20061
+20062:20062
+20139:20139
+20235:20235
+20351:20351
+20352:20352
+20161:20161 20163
+19821:19821 19823 19841 19839
+19805:19805 20806 20807 20808
+19811:19811 19813 19835 19837
+20828:20828 20838
+20809:20809
+19855:19855
+21615:21615
+21619:21619
+2169A:2169A
+2169B:2169B
+2161A:2161A
