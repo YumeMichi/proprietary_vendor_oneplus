@@ -160,12 +160,12 @@
 
         <!--  disable HDCP by default -->
         <ContentProtection>
-            <Valid>1</Valid>
+            <Valid>0</Valid>
             <!--
                 Valid values WFD_HDCP_2_0,
                 WFD_HDCP_2_1 and WFD_HDCP_2_2
             -->
-            <Version>WFD_HDCP_2_3</Version>
+            <Version>WFD_HDCP_2_2</Version>
             <CPPort>6789</CPPort>
             <!--
                 turn on/off audio encryption
@@ -704,12 +704,7 @@
         To disable/enable audio stream playback
         support during power suspend - 0 or 1
     -->
-
-    <!-- #ifdef OPLUS_BUG_STABILITY -->
-    <!-- Liang.Xu@PSW.MM.AudioServer.Base.1297775, 2018/12/12, -->
-    <!-- Modify for audio should still playing on TV after screen off -->
-    <AudioStreamInSuspend>1</AudioStreamInSuspend>
-    <!-- #endif //OPLUS_BUG_STABILITY -->
+    <AudioStreamInSuspend>0</AudioStreamInSuspend>
 
     <!--
         Compensation delay for audio
