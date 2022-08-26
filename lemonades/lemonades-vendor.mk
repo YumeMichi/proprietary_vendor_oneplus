@@ -60,6 +60,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonades/proprietary/odm/etc/inparm/irissoft/inParm8_b.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_b.txt \
     vendor/oneplus/lemonades/proprietary/odm/etc/inparm/irissoft/inParm8_c.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_c.txt \
     vendor/oneplus/lemonades/proprietary/odm/etc/irissoft.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft.fw \
+    vendor/oneplus/lemonades/proprietary/odm/etc/samsung1024_amb655x_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_amb655x_eyeprotect_data.xml \
+    vendor/oneplus/lemonades/proprietary/odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml \
+    vendor/oneplus/lemonades/proprietary/odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml \
+    vendor/oneplus/lemonades/proprietary/odm/etc/samsung1024_ana6706_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_eyeprotect_data.xml \
+    vendor/oneplus/lemonades/proprietary/odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_ak991x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_ak991x_0.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_alsps.json \
     vendor/oneplus/lemonades/proprietary/odm/etc/sensor/config/kona_qrd_bmi26x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_bmi26x_0.json \
