@@ -113,10 +113,4 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9678.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9678.b05 \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9678.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9678.b06 \
     vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9678.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9678.b07 \
-    vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9678.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9678.mdt \
-    vendor/oneplus/lemonades/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service-qti \
-    vendor/oneplus/lemonades/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
-    vendor/oneplus/lemonades/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
-    vendor/oneplus/lemonades/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
-    vendor/oneplus/lemonades/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
-    vendor/oneplus/lemonades/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so
+    vendor/oneplus/lemonades/proprietary/odm/vendor/firmware/gfp9678.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/gfp9678.mdt
