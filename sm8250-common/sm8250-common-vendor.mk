@@ -1106,6 +1106,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideo.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideolite.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib64/hta_lib/libhta_hexagon_runtime.so:$(TARGET_COPY_OUT_ODM)/lib64/hta_lib/libhta_hexagon_runtime.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/hw/fingerprint.19805_goodix9638_G6_3.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.19805_goodix9638_G6_3.default.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/hw/fingerprint.19805_goodix9678_G6_7.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.19805_goodix9678_G6_7.default.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/hw/fingerprint.19811_goodix9638_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.19811_goodix9638_G6.default.so \
@@ -1114,6 +1115,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/hw/fingerprint.goodix9608_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix9608_G5.default.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/hw/fingerprint.goodix9638_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix9638_G6.default.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/libSonyIMX471RmscLibrary.so:$(TARGET_COPY_OUT_ODM)/lib64/libSonyIMX471RmscLibrary.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib64/libaiboost.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiboost.so \
+    vendor/oneplus/sm8250-common/proprietary/odm/lib64/libaiboost_hexagon.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiboost_hexagon.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/libfastov_dsp.so:$(TARGET_COPY_OUT_ODM)/lib64/libfastov_dsp.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/libgf_hal_19805_G6_3_oplus.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_19805_G6_3_oplus.so \
     vendor/oneplus/sm8250-common/proprietary/odm/lib64/libgf_hal_19805_G6_7_oplus.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_19805_G6_7_oplus.so \
@@ -1243,6 +1246,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/camera/depth.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/depth.dlc \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/camera/model.data:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model.data \
+    vendor/oneplus/sm8250-common/proprietary/vendor/etc/camera/segment.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/segment.dlc \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/oneplus/sm8250-common/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
@@ -1794,13 +1800,18 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/lib-siputility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-siputility.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-uceservice.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlacSwDec.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libAlgoProcess.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAlgoProcess.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libAncSegBaseSdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAncSegBaseSdk.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libApeSwDec.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libFaceBeautyLiteCap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFaceBeautyLiteCap.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libFlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFlacSwDec.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libGPQTEEC_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPQTEEC_vendor.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libGPTEE_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPTEE_vendor.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libMpeghSwEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMpeghSwEnc.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libOPPO_Front_SCPortrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOPPO_Front_SCPortrait.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libOPPO_SCPortrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOPPO_SCPortrait.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacDec.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDec.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libOmxAlacDecSw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDecSw.so \
@@ -1814,19 +1825,42 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libOmxQcelp13Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Dec.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPlatformValidatorShared.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libPolarrRender.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPolarrRender.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libQTEEConnector_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_listener.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libSonyIMX471RmscLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX471RmscLibrary.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libSuperSensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensor.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libSuperSensorFallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensorFallback.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libSuperSensorProcessor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensorProcessor.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libSuperSensorProcessorCWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensorProcessorCWrapper.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libVDBlurless.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDBlurless.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libVDDualCameraBlurlessAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDDualCameraBlurlessAPI.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libVDFusionBlurlessAPI_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDFusionBlurlessAPI_v2.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDSuperPhotoAPI.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/lib_bokehlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bokehlib.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/lib_oneplus_vivideffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_oneplus_vivideffect.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/lib_oneplus_watermark.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_oneplus_watermark.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadiertac.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libalCFR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalCFR.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libalCFRLV.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalCFRLV.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libalCFRLV_dsp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalCFRLV_dsp.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libalHexController.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalHexController.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libancbase_segbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libancbase_segbase.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libaps_frame_registration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaps_frame_registration.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libapsdarksight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapsdarksight.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libapsexif.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapsexif.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapsjpeg.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libarcsoft_beautyshot_4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot_4.0.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libarcsoft_calibverify_TriCamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_calibverify_TriCamera.so \
@@ -1869,6 +1903,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libbluetooth_audio_session_qti_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti_2_1.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerapostproc.so \
@@ -1902,6 +1937,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libcvp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp2.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libcvp2_hfi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp2_hfi.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_common.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libcvpcpuRev_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvpcpuRev_skel.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
@@ -1913,6 +1949,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libdualcam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_image_optical_zoom.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libdualcam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_optical_zoom_control.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libdualcam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_video_optical_zoom.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libembmsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libembmsservice.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvdsp_stub.so \
@@ -1957,6 +1995,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libmorpho_dcface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_dcface.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libmorpho_image_refiner_deflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_image_refiner_deflicker.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libnanopb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnanopb.so \
@@ -1965,9 +2005,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_nr_fusion.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libnetmgr_rmnet_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_rmnet_ext.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libnightvision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnightvision.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libnpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpu.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinelog.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libop-bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libop-bokeh.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libos.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
@@ -2034,6 +2076,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsi.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmemlog.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsnpe_adsp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnpe_adsp.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsnpe_dsp_domains.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnpe_dsp_domains.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnpe_dsp_domains_v2.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsnpe_loader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnpe_loader.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
@@ -2046,7 +2092,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_qtiflacdec.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libstblur_capture_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstblur_capture_api.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstdc++.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphony-cpu.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphonypower.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynergy_loc_api.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsynx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynx.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
@@ -2054,6 +2104,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libtriplecam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_image_optical_zoom.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_optical_zoom_control.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_video_optical_zoom.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustedapploader.so \
@@ -2072,6 +2123,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libxtwifi_server_protocol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_server_protocol.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libxtwifi_server_protocol_uri_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_server_protocol_uri_v3.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libyuv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyuv2.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
