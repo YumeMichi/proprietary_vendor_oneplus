@@ -22,44 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus9r/proprietary/odm/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_main.bin \
     vendor/oneplus/oneplus9r/proprietary/odm/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/darksight/darksight_ultrawide.bin \
     vendor/oneplus/oneplus9r/proprietary/odm/etc/camera/distortion_result.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortion_result.bin \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm.lst:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm.lst \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm10.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm10.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm11.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm11.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm12.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm12.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm14_a.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_a.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm14_b.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_b.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm14_c.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm14_c.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm16_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16_center.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm16_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16_down.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm16_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm16_up.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm17_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17_center.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm17_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17_down.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm17_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm17_up.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm18_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18_center.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm18_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18_down.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm18_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm18_up.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm1_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1_center.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm1_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1_down.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm1_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm1_up.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm2_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2_center.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm2_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2_down.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm2_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm2_up.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm3_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3_center.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm3_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3_down.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm3_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm3_up.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm4_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4_center.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm4_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4_down.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm4_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm4_up.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm5_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5_center.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm5_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5_down.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm5_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm5_up.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm6_center.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6_center.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm6_down.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6_down.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm6_up.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm6_up.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm8_a.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_a.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm8_b.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_b.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/inparm/irissoft/inParm8_c.txt:$(TARGET_COPY_OUT_ODM)/etc/inparm/irissoft/inParm8_c.txt \
-    vendor/oneplus/oneplus9r/proprietary/odm/etc/irissoft.fw:$(TARGET_COPY_OUT_ODM)/etc/irissoft.fw \
     vendor/oneplus/oneplus9r/proprietary/odm/etc/sensor/config/kona_bu52053nvx_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_bu52053nvx_0.json \
     vendor/oneplus/oneplus9r/proprietary/odm/etc/sensor/config/kona_qrd_ak991x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_ak991x_0.json \
     vendor/oneplus/oneplus9r/proprietary/odm/etc/sensor/config/kona_qrd_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/kona_qrd_alsps.json \
